@@ -45,7 +45,7 @@ public class ComprobantesDao extends ConexionBD {
 
         } catch (Exception e) {
             System.out.println(e);
-            System.out.println("Algo salio mal");
+            System.out.println("Algo salio mal este");
         }
     }
 
