@@ -88,7 +88,7 @@ public class Buscar extends javax.swing.JFrame {
         txtID.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         getContentPane().add(txtID, new org.netbeans.lib.awtextra.AbsoluteConstraints(201, 127, 330, 29));
 
-        LabelContra.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
+        LabelContra.setFont(new java.awt.Font("Tahoma", 0, 21)); // NOI18N
         LabelContra.setText("Contraseña");
         getContentPane().add(LabelContra, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 318, 158, -1));
         getContentPane().add(txtBusqueda, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 52, 330, 29));
