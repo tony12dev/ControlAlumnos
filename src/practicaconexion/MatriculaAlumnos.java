@@ -38,6 +38,7 @@ public class MatriculaAlumnos extends javax.swing.JFrame {
     private ImageIcon imagen; //declaracion de variables para el metodo de imagen
     private Icon icono;//declaracion de variables para el metodo de imagen
     public Double saldo;
+    public int Calificaciones;
     
     public MatriculaAlumnos() throws Exception{
         initComponents();
@@ -45,6 +46,7 @@ public class MatriculaAlumnos extends javax.swing.JFrame {
         this.pintarImagen(this.Limage2, "src/image/matricula.png");
         this.pintarImagen(Lmas, "src/image/mas.png");
         llenarComprobante();
+
        
     }
 
@@ -70,7 +72,7 @@ public class MatriculaAlumnos extends javax.swing.JFrame {
         dt.setPreciopension(Integer.parseInt(txtprecioPension.getText()));
         dt.setCantpensiones(Integer.parseInt(conPensiones.getValue().toString()));
     }
-    
+
     
     public void llenarComprobante() throws Exception{
                 
