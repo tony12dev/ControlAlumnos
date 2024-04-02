@@ -16,6 +16,7 @@ private String nombre;
 private String apellidoParterno;
 private String apellidoMaterno;
 private int edad;
+private String status;
 
 
 
