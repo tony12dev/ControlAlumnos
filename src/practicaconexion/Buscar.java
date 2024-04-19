@@ -147,7 +147,7 @@ public class Buscar extends javax.swing.JFrame {
             txtNombress.setText("");
             txtUsuae.setText("");
             txtPass.setText("");
-                              
+                System.out.println("Hola mundo cruel");
             }
             
         } catch (Exception e) {
